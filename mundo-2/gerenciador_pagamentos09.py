@@ -35,5 +35,3 @@ try:
 
 except ValueError:
     print('Digite um valor em número!')
-        
-        
