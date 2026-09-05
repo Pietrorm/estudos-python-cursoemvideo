@@ -6,7 +6,7 @@ nome_maior = ''
 for i in range(1,5):
 
     print('--'*3, f'{i}° PESSOA', '--'*3) # Entrada dos valores das Variavéis
-    nome = input('Nome: ')
+    nome = input('Nome: ').strip()
     idade = int(input('Idade: '))
     sexo = input('Sexo [M/F]: ').lower()
 
@@ -24,5 +24,5 @@ for i in range(1,5):
 
 media = (soma) / i
 print(f'A idade média do grupo é: {media:.1f}')
-print(f'O homem mais velho tem {idade_maior} e se chama {nome}')
+print(f'O homem mais velho tem {idade_maior} e se chama {nome_maior}')
 print(f'Ao todo são {cont} mulheres com menos de 20 anos')
