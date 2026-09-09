@@ -17,12 +17,12 @@ while not stop:
 
     if opcao == 1:
         soma = valor_um + valor_dois
-        print(f'A soma entre {valor_um} e {valor_dois} é: {soma}') # soma
+        print(f'A soma entre {valor_um} + {valor_dois} é: {soma}') # soma
         time.sleep(1)
 
     elif opcao == 2:
         multiplicar = valor_um * valor_dois
-        print(f'A multiplicação entre {valor_um} e {valor_dois} é: {multiplicar}') # multiplica
+        print(f'A multiplicação entre {valor_um} * {valor_dois} é: {multiplicar}') # multiplica
         time.sleep(1)
 
     elif opcao == 3:
