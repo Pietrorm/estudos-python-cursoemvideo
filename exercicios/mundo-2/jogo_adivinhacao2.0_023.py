@@ -1,11 +1,11 @@
 from random import randint
 import time
 
-computador = randint(1,3)
-print(computador)
+computador = randint(1,10)
 
 palpites = 0
 acertou = False
+
 print('Jogo de Descobrir em qual número o SEU COMPUTADOR está pensando!!')
 
 while not acertou:
@@ -23,4 +23,3 @@ while not acertou:
             print('Menos...')
 
 print(f'Você Acertou com {palpites} tentativas')
-
