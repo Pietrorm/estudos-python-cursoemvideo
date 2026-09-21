@@ -7,13 +7,8 @@ while True:
         break
     total += 1
     cont = 0
-    for cont in range(1,11):
-        tabuada = numero * cont
-        print(f'{numero} x {cont} = {tabuada}')
-print(f'Você verificou a Tabuada de {total} números')
-
-'''while cont < 10:
+    while cont < 10:
         cont += 1
         tabuada = numero * cont
         print(f'{numero} x {cont} = {tabuada}')
-print(f'Você verificou a Tabuada de {total} números') '''
+print(f'Você verificou a Tabuada de {total} números')
